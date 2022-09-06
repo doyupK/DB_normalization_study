@@ -1,8 +1,9 @@
 package com.supercarmarket.dev.domain;
 
+import com.supercarmarket.dev.domain.enumData.UserRatingEnum;
+import com.supercarmarket.dev.domain.enumData.UserRoleEnum;
 import lombok.*;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;

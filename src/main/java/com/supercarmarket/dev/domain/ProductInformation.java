@@ -1,5 +1,7 @@
 package com.supercarmarket.dev.domain;
 
+import com.supercarmarket.dev.domain.enumData.ProductFuelTypeEnum;
+import com.supercarmarket.dev.domain.enumData.ProductTransmissionTypeEnum;
 import lombok.*;
 
 import javax.persistence.Entity;

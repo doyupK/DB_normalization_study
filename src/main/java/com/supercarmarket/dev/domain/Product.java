@@ -1,5 +1,7 @@
 package com.supercarmarket.dev.domain;
 
+import com.supercarmarket.dev.domain.enumData.ProductRatingEnum;
+import com.supercarmarket.dev.domain.enumData.ProductStatusEnum;
 import lombok.*;
 
 import javax.persistence.*;

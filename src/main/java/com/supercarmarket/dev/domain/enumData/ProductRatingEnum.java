@@ -1,4 +1,4 @@
-package com.supercarmarket.dev.domain;
+package com.supercarmarket.dev.domain.enumData;
 
 public enum ProductRatingEnum {
     BEFORE_CONFIRM(false),

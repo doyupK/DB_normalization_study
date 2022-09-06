@@ -1,4 +1,4 @@
-package com.supercarmarket.dev.domain;
+package com.supercarmarket.dev.domain.enumData;
 
 public enum ProductTransmissionTypeEnum {
     BEFORE_CONFIRM(false),
