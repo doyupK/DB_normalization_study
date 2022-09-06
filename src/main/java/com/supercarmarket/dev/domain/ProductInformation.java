@@ -1,4 +1,25 @@
 package com.supercarmarket.dev.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+@Entity
 public class ProductInformation {
+
+    @Id
+    @GeneratedValue
+    Long seq;
+
+    @OneToOne
+    Product product;
+    String carNumber;
+    String registrationDate; // 최초 자동차등록일
+    String displacement;
+    ProductTransmissionTypeEnum productTransmissionTypeEnum;
+    int mileage;
+    String color;
+    boolean accidentHistory;
+    ProductFuelType productFuelType;
 }

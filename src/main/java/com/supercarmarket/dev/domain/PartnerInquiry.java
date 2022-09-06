@@ -1,4 +1,20 @@
 package com.supercarmarket.dev.domain;
 
-public class PartnerInquiry {
+import javax.persistence.*;
+
+@Entity
+public class PartnerInquiry extends TimeStamped{
+    @Id
+    @GeneratedValue
+    Long seq;
+
+    @ManyToOne
+    User user;
+
+    String title;
+    String contents;
+    String attachmentUrl;
+    PartnerInquiryStatusEnum partnerInquiryStatusEnum;
+    PartnerInquiryCategoryEnum partnerInquiryCategoryEnum;
+
 }

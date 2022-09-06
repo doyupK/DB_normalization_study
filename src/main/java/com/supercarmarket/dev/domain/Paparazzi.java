@@ -1,4 +1,26 @@
 package com.supercarmarket.dev.domain;
 
-public class Paparazzi {
+import javax.persistence.*;
+
+@Entity
+public class Paparazzi extends TimeStamped {
+    @Id
+    @GeneratedValue
+    Long seq;
+
+    @ManyToOne
+    @JoinColumn
+    User user;
+
+    @ManyToOne
+    @JoinColumn
+    Category category;
+
+    String title;
+    String contents;
+    int like;
+    int notLike;
+    Long viewCount;
+    PaparazziRatingEnum paparazziRatingEnum;
+
 }
