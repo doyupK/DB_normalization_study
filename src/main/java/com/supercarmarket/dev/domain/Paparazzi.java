@@ -25,8 +25,8 @@ public class Paparazzi extends TimeStamped {
 
     String title;
     String contents;
-    int like;
-    int notLike;
+    int approve;
+    int disapprove;
     Long viewCount;
     PaparazziRatingEnum paparazziRatingEnum;
 

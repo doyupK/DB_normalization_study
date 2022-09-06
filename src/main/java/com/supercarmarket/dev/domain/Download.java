@@ -19,8 +19,8 @@ public class Download extends TimeStamped{
 
     String title;
     String contents;
-    int like;
-    int notLike;
+    int approve;
+    int disapprove;
     Long viewCount;
     String attachmentUrl;
 }

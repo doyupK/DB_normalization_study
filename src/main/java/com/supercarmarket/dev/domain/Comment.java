@@ -9,7 +9,7 @@ import javax.persistence.*;
 @RequiredArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Comment {
+public class Comment extends TimeStamped {
 
     @Id
     @GeneratedValue
