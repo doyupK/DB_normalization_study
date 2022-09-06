@@ -1,7 +1,13 @@
 package com.supercarmarket.dev.domain;
 
-import javax.persistence.*;
+import lombok.*;
 
+import javax.persistence.*;
+@Builder
+@Getter
+@Setter
+@RequiredArgsConstructor
+@AllArgsConstructor
 @Entity
 public class Product extends TimeStamped {
     @Id

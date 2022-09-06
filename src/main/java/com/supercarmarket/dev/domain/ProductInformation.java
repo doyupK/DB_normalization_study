@@ -1,10 +1,16 @@
 package com.supercarmarket.dev.domain;
 
+import lombok.*;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
-
+@Builder
+@Getter
+@Setter
+@RequiredArgsConstructor
+@AllArgsConstructor
 @Entity
 public class ProductInformation {
 
@@ -21,5 +27,5 @@ public class ProductInformation {
     int mileage;
     String color;
     boolean accidentHistory;
-    ProductFuelType productFuelType;
+    ProductFuelTypeEnum productFuelType;
 }
