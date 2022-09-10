@@ -23,7 +23,7 @@ public class UserController {
 
     @PostMapping("/api/v1/user")
     public ResponseEntity<?> createUser(@RequestBody SignupRequestDto signupRequestDto) {
-        return new ResponseEntity<>(userService.createUser(signupRequestDto), HttpStatus.OK);
+        return new ResponseEntity<>(userService.createUser(signupRequestDto), HttpStatus.CREATED);
     }
 
 }
