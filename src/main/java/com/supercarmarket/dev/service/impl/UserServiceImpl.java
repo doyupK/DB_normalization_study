@@ -4,7 +4,6 @@ import com.supercarmarket.dev.domain.User;
 import com.supercarmarket.dev.domain.enumData.UserRatingEnum;
 import com.supercarmarket.dev.domain.enumData.UserRoleEnum;
 import com.supercarmarket.dev.dto.SignupRequestDto;
-import com.supercarmarket.dev.dto.SignupResponseDto;
 import com.supercarmarket.dev.repository.UserRepository;
 import com.supercarmarket.dev.service.UserService;
 import lombok.RequiredArgsConstructor;
