@@ -1,12 +1,12 @@
 package com.supercarmarket.dev.domain.enumData;
 
 public enum UserRoleEnum {
-    BEFORE_CONFIRM(false),
-    OK_CONFIRM(true);
+    NORMAL(false),
+    DEALER(true);
 
-    boolean code;
+    final boolean type;
 
-    UserRoleEnum(boolean code) {
-        this.code = code;
+    UserRoleEnum(boolean type) {
+        this.type = type;
     }
 }

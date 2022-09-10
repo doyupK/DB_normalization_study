@@ -19,4 +19,5 @@ public class Category {
 
     @OneToOne
     Category category;
+
 }
