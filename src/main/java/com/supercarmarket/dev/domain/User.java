@@ -25,5 +25,4 @@ public class User extends TimeStamped {
     UserRatingEnum rating;
     @Enumerated(EnumType.STRING)
     UserRoleEnum role;
-
 }
